@@ -5,13 +5,13 @@ const Footer = () => {
   return (
     <div>
       <div className="flex items-center justify-around bg-[#164863] w-full h-[13rem]">
-        <a href="#home" className="text-[#ddf2fd] md:text-2xl font-semibold">
+        <a href="#home" className="text-[#ddf2fd] md:text-2xl">
           Home
         </a>
-        <a href="#service" className="text-[#ddf2fd] md:text-2xl font-semibold">
+        <a href="#service" className="text-[#ddf2fd] md:text-2xl">
           Service
         </a>
-        <a href="#years" className="text-[#ddf2fd] md:text-2xl font-semibold">
+        <a href="#years" className="text-[#ddf2fd] md:text-2xl">
           Year
         </a>
       </div>

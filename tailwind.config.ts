@@ -17,4 +17,14 @@ const config: Config = {
   },
   plugins: [],
 };
+
+// module.exports = {
+//   theme: {
+//     extend: {
+//       transitionDuration: {
+//         "2000": "2000ms", // Slow transition duration
+//       },
+//     },
+//   },
+// };
 export default config;

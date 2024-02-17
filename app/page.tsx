@@ -1,7 +1,14 @@
 import Image from "next/image";
+import Hero from "./components/Hero";
+import Service from "./components/Service";
+import Years from "./components/Years";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <main className="px-8">
+      <Hero />
+      <Service />
+      <Years />
+    </main>
   );
 }

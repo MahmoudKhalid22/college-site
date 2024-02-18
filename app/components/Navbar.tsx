@@ -1,7 +1,8 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import Link from "next/link";
 import logo from "../../public/logo.png";
 
 const Navbar = () => {
@@ -10,9 +11,9 @@ const Navbar = () => {
   return (
     <>
       <div className="fixed w-full top-0 left-0 flex items-center justify-between h-24 bg-[#9BBEC8] px-4 ">
-        <div>
+        <Link href="/">
           <Image src={logo} alt="logo" width={80} height={80} />
-        </div>
+        </Link>
         <div
           className="flex flex-col gap-2 md:gap-4 cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
@@ -46,7 +47,8 @@ const Navbar = () => {
           X
         </div>
         <li>
-          <Link
+          {/* <Link href="/"> */}
+          <ScrollLink
             to="home"
             spy={true}
             offset={-140}
@@ -54,10 +56,11 @@ const Navbar = () => {
             className="text-4xl cursor-pointer  text-[#ddf2fd]"
           >
             Home
-          </Link>
+          </ScrollLink>
+          {/* </Link> */}
         </li>
         <li>
-          <Link
+          <ScrollLink
             to="service"
             spy={true}
             offset={-140}
@@ -65,10 +68,10 @@ const Navbar = () => {
             className="text-4xl cursor-pointer  text-[#ddf2fd]"
           >
             Services
-          </Link>
+          </ScrollLink>
         </li>
         <li>
-          <Link
+          <ScrollLink
             to="years"
             spy={true}
             offset={-170}
@@ -76,7 +79,7 @@ const Navbar = () => {
             className="text-4xl cursor-pointer  text-[#ddf2fd]"
           >
             Years
-          </Link>
+          </ScrollLink>
         </li>
       </ul>
       {isOpen && (

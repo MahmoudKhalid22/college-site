@@ -58,11 +58,14 @@ const Years = () => {
           </div>
         </div>
         <div className="">
-          <div className="flex items-center justify-center bg-[#427D9D] w-[15rem] h-[15rem]">
+          <Link
+            href="/year"
+            className="flex items-center justify-center bg-[#427D9D] w-[15rem] h-[15rem] cursor-pointer"
+          >
             <span className="font-semibold text-5xl text-center text-[#ddf2fd]">
               <span className="block"> 4th </span> year
             </span>
-          </div>
+          </Link>
           <div className="bg-[#164863] flex items-center justify-between py-4 px-2 ">
             <a href="/pages/:id" className="text-[#ddf2fd]">
               page

@@ -35,7 +35,7 @@ function Hero() {
         <button>
           <Link
             to="years"
-            spy={true}
+            offset={-120}
             className="bg-[#164863] text-white md:text-xl mx-auto md:mx-0  text-sm px-4 py-2 md:px-8 md:py-4 w-fit rounded-md md:rounded-xl hover:bg-[#2d5a73] transition-colors duration-300"
           >
             go to academic years

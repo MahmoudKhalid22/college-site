@@ -1,33 +1,34 @@
 "use client";
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 // import Link from "next/link";
 
 const Footer = () => {
   return (
     <>
       <div className="flex items-center justify-around bg-[#164863] w-full h-[13rem]">
-        <Link
+        <ScrollLink
           to="home"
           offset={-100}
           className="text-[#ddf2fd] md:text-2xl cursor-pointer"
         >
           Home
-        </Link>
-        <Link
+        </ScrollLink>
+        <ScrollLink
           to="service"
           offset={-100}
           className="text-[#ddf2fd] md:text-2xl cursor-pointer"
         >
-          Service
-        </Link>
-        <Link
+          Service{" "}
+        </ScrollLink>
+        <ScrollLink
           to="years"
           offset={-120}
           className="text-[#ddf2fd] md:text-2xl cursor-pointer"
         >
           Year
-        </Link>
+        </ScrollLink>
       </div>
       <div className="flex flex-col items-center justify-center gap-2 py-4 bg-[#9BBEC8]">
         <p className="text-[#164863] md:text-xl font-semibold">

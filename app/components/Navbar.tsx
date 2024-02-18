@@ -37,7 +37,7 @@ const Navbar = () => {
       <ul
         className={`${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } z-20 flex items-center justify-center gap-24 flex-col bg-[#427D9D] transition-transform duration-300 fixed left-0 top-0 h-full w-1/2 md:w-80`}
+        } z-20 flex items-center justify-center gap-24 flex-col bg-[#427D9D] transition-transform duration-300 fixed left-0 top-0 h-full w-2/3 sm:w-1/2 md:w-80`}
       >
         <div
           className="absolute top-4 right-4 text-5xl text-[#ddf2fd] cursor-pointer"

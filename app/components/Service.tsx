@@ -6,11 +6,11 @@ import service_2 from "../../public/service_2.png";
 
 function Service() {
   return (
-    <div className="py-36" id="service">
-      <h2 className="text-2xl md:text-3xl font-bold text-center text-[#164863] mb-12">
-        Service
+    <div className="py-8" id="service">
+      <h2 className="text-2xl md:text-3xl font-bold text-center text-[#164863] md:mb-0 mb-8">
+        Services
       </h2>
-      <div className="flex flex-col gap-20 md:gap-0">
+      <div className="flex flex-col gap-12 md:gap-0">
         <div className="flex flex-col-reverse md:flex-row items-center justify-around">
           <div className="flex flex-col items-center md:items-start gap-4">
             <p className="text-lg md:text-2xl font-semibold text-[#164863]">

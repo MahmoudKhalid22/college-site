@@ -7,7 +7,7 @@ const Years = () => {
     <>
       <div className="my-36 flex flex-col gap-20" id="years">
         <p className="text-3xl font-bold text-center text-[#164863]">Years</p>
-        <div className=" flex items-center justify-center flex-wrap gap-20">
+        <div className="flex items-center justify-center flex-wrap gap-20">
           <div className="">
             <div className="flex items-center justify-center bg-[#427D9D] w-[15rem] h-[15rem]">
               <span className="font-semibold text-5xl text-center text-[#ddf2fd]">

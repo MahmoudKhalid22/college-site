@@ -1,6 +1,8 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import logo from "../../public/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +11,7 @@ const Navbar = () => {
     <>
       <div className="fixed w-full top-0 left-0 flex items-center justify-between h-24 bg-[#9BBEC8] px-4 ">
         <div>
-          <img src="/logo.png" alt="logo" />
+          <Image src={logo} alt="logo" width={80} height={80} />
         </div>
         <div
           className="flex flex-col gap-2 md:gap-4 cursor-pointer"

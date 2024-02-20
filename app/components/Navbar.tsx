@@ -47,17 +47,17 @@ const Navbar = () => {
           X
         </div>
         <li>
-          {/* <Link href="/"> */}
-          <ScrollLink
-            to="home"
-            spy={true}
-            offset={-140}
-            duration={300}
-            className="text-4xl cursor-pointer  text-[#ddf2fd]"
-          >
-            Home
-          </ScrollLink>
-          {/* </Link> */}
+          <Link href="/">
+            <ScrollLink
+              to="home"
+              spy={true}
+              offset={-140}
+              duration={300}
+              className="text-4xl cursor-pointer  text-[#ddf2fd]"
+            >
+              Home
+            </ScrollLink>
+          </Link>
         </li>
         <li>
           <ScrollLink

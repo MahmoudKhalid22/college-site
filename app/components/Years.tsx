@@ -9,38 +9,30 @@ const Years = () => {
         Years
       </p>
       <div className="flex items-center justify-center flex-wrap gap-12">
+        {/* 04 */}
         <div className="">
-          <div className="flex items-center justify-center bg-[#427D9D] w-[15rem] h-[15rem]">
+          <Link
+            href="/year"
+            className="flex items-center justify-center bg-[#429d7f] w-[15rem] h-[15rem] cursor-pointer"
+          >
             <span className="font-semibold text-5xl text-center text-[#ddf2fd]">
-              <span className="block">1st</span>year
+              <span className="block"> 4th </span> year
             </span>
-          </div>
-          <div className="bg-[#164863] flex items-center justify-between py-4 px-2 ">
-            <a href="/pages/:id" className="text-[#ddf2fd]">
-              page
-            </a>
-            <div className="flex flex-col gap-4">
-              <p className="text-[#ddf2fd]">semester 1 drive</p>
-              <p className="text-[#ddf2fd]">semester 2 drive</p>
-            </div>
+          </Link>
+          <div className="flex flex-col gap-4 bg-[#164863] py-4 px-2">
+            <p className="underline cursor-pointer text-[#ddf2fd] md:text-xl">
+              semester 1 drive
+            </p>
+            <Link
+              href="https://drive.google.com/drive/folders/1TssnGRFv-Uo9XcjPF2wgjy_BOW6YsfPg"
+              target="_blank"
+              className="underline cursor-pointer text-[#ddf2fd] md:text-xl"
+            >
+              semester 2 drive
+            </Link>
           </div>
         </div>
-        <div className="">
-          <div className="flex items-center justify-center bg-[#427D9D] w-[15rem] h-[15rem]">
-            <span className="font-semibold text-5xl text-center text-[#ddf2fd]">
-              <span className="block"> 2nd </span> year
-            </span>
-          </div>
-          <div className="bg-[#164863] flex items-center justify-between py-4 px-2 ">
-            <a href="/pages/:id" className="text-[#ddf2fd]">
-              page
-            </a>
-            <div className="flex flex-col gap-4">
-              <p className="text-[#ddf2fd]">semester 1 drive</p>
-              <p className="text-[#ddf2fd]">semester 2 drive</p>
-            </div>
-          </div>
-        </div>
+
         <div className="">
           <div className="flex items-center justify-center bg-[#427D9D] w-[15rem] h-[15rem]">
             <span className="font-semibold text-5xl text-center text-[#ddf2fd]">
@@ -48,32 +40,52 @@ const Years = () => {
             </span>
           </div>
           <div className="bg-[#164863] flex items-center justify-between py-4 px-2 ">
-            <a href="/pages/:id" className="text-[#ddf2fd]">
-              page
-            </a>
             <div className="flex flex-col gap-4">
-              <p className="text-[#ddf2fd]">semester 1 drive</p>
-              <p className="text-[#ddf2fd]">semester 2 drive</p>
+              <p className="underline cursor-pointer text-[#ddf2fd] md:text-xl">
+                semester 1 drive
+              </p>
+              <p className="underline cursor-pointer text-[#ddf2fd] md:text-xl">
+                semester 2 drive
+              </p>
             </div>
           </div>
         </div>
+
         <div className="">
-          <Link
-            href="/year"
-            className="flex items-center justify-center bg-[#427D9D] w-[15rem] h-[15rem] cursor-pointer"
-          >
+          <div className="flex items-center justify-center bg-[#427D9D] w-[15rem] h-[15rem]">
             <span className="font-semibold text-5xl text-center text-[#ddf2fd]">
-              <span className="block"> 4th </span> year
+              <span className="block"> 2nd </span> year
             </span>
-          </Link>
-          <div className="bg-[#164863] flex items-center justify-between py-4 px-2 ">
-            <a href="/pages/:id" className="text-[#ddf2fd]">
-              page
-            </a>
-            <div className="flex flex-col gap-4">
-              <p className="text-[#ddf2fd]">semester 1 drive</p>
-              <p className="text-[#ddf2fd]">semester 2 drive</p>
-            </div>
+          </div>
+          <div className="flex flex-col gap-4 bg-[#164863]  py-4 px-2">
+            <p className="underline cursor-pointer text-[#ddf2fd] md:text-xl">
+              semester 1 drive
+            </p>
+            <p className="underline cursor-pointer text-[#ddf2fd] md:text-xl">
+              semester 2 drive
+            </p>
+          </div>
+        </div>
+
+        <div className="">
+          <div className="flex items-center justify-center bg-[#427D9D] w-[15rem] h-[15rem]">
+            <span className="font-semibold text-5xl text-center text-[#ddf2fd]">
+              <span className="block">1st</span>year
+            </span>
+          </div>
+          <div className="flex flex-col gap-4 bg-[#164863] py-4 px-2 ">
+            <Link
+              href=""
+              className="underline cursor-pointer text-[#ddf2fd] md:text-xl"
+            >
+              semester 1 drive
+            </Link>
+            <Link
+              href=""
+              className="underline cursor-pointer text-[#ddf2fd] md:text-xl"
+            >
+              semester 2 drive
+            </Link>
           </div>
         </div>
       </div>

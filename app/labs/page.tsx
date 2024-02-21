@@ -3,9 +3,9 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="my-36 mx-auto block">
+    <div className="my-36 mx-auto block overflow-scroll px-6">
       <div></div>
-      <table className="table-auto mx-auto my-36 overflow-scroll">
+      <table className="table-auto mx-auto my-36">
         <thead className="table-auto">
           <tr>
             <th className="py-2 px-4 bg-[#164863] border-r-2 border-r-[#dd2fd] text-[#ddf2fd]">

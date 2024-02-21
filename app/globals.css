@@ -28,3 +28,6 @@ a.active {
   justify-content: center;
   align-items: center;
 }
+.year {
+  height: calc(100vh - 25rem);
+}

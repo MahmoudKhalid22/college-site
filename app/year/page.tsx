@@ -5,7 +5,7 @@ import React, { useState } from "react";
 const Year = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="mb-16 mt-36 mx-8">
+    <div className="year mt-36 mx-8">
       <button
         className={`py-4 px-6 text-2xl font-semibold text-center bg-[#427D9D] text-white transition-all duration-300   ${
           isOpen ? "rounded-tr-2xl rounded-tl-2xl" : "rounded-none"

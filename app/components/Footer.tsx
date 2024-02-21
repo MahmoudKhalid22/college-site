@@ -6,7 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="absolute bottom-0 w-full -z-10">
+    <div className=" w-full h-full -z-10">
       <div className="flex items-center justify-around bg-[#164863] w-full h-[13rem] ">
         <ScrollLink
           to="home"

@@ -75,13 +75,13 @@ const Years = () => {
           </div>
           <div className="flex flex-col gap-4 bg-[#164863] py-4 px-2 ">
             <Link
-              href=""
+              href="#"
               className="underline cursor-pointer text-[#ddf2fd] md:text-xl"
             >
               semester 1 drive
             </Link>
             <Link
-              href=""
+              href="#"
               className="underline cursor-pointer text-[#ddf2fd] md:text-xl"
             >
               semester 2 drive

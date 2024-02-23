@@ -10,28 +10,36 @@ function Hero() {
       className="mt-12 md:mt-6 flex items-center justify-between flex-row-reverse min-h-screen overflow-hidden"
       id="home"
     >
-      <motion.div animate={{ x: -350, opacity: 1 }}>
+      <motion.div
+        initial={{ x: 100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ type: "tween", duration: 0.7 }}
+      >
         <Image
           src="/hero.png"
           alt="hero"
           loading="lazy"
           width={350}
           height={350}
-          className=" hidden lg:block object-contain translate-x-full"
+          className="hidden lg:block object-contain"
         />
       </motion.div>
       <div className="flex flex-col items-center justify-center text-center md:text-start md:justify-start md:items-start gap-14">
         <div className="flex flex-col gap-3">
           <motion.h1
-            animate={{ y: 8, opacity: 1 }}
-            className="text-lg mt-16 opacity-0 md:text-3xl font-bold md:w-[650px] text-[#164863] md:leading-relaxed"
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ type: "tween", duration: 0.7 }}
+            className="text-lg mt-2 opacity-0 md:text-3xl font-bold md:w-[650px] text-[#164863] md:leading-relaxed"
           >
             Welcome to Computer and System Engineering Academic Hub at Zagazig
             University
           </motion.h1>
           <motion.p
-            animate={{ y: 8, opacity: 1 }}
-            className="text-sm leading-loose md:text-xl md:leading-10 md:w-[650px] text-[#164863] opacity-0"
+            initial={{ x: -100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ type: "tween", duration: 0.7 }}
+            className="text-sm leading-loose md:text-xl md:leading-10 md:w-[650px] text-[#164863]"
           >
             Explore academic curricula tailored for Computer and System
             Engineering students at Zagazig University&apos;s College of
@@ -39,7 +47,11 @@ function Hero() {
             interactive materials to enhance your learning journey.
           </motion.p>
         </div>
-        <motion.div animate={{ y: 8, opacity: 1 }} className="mt:4 opacity-0">
+        <motion.div
+          initial={{ y: 100, opacity: 0 }}
+          animate={{ y: 16, opacity: 1 }}
+          transition={{ type: "tween", duration: 0.7 }}
+        >
           <Link
             to="years"
             offset={-120}

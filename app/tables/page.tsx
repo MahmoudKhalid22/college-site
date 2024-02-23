@@ -5,7 +5,7 @@ import labs from "../../public/labs.jpg";
 
 function page() {
   return (
-    <div className="my-36 flex flex-col justify-center items-center">
+    <div className="my-36 mx-8 flex flex-col justify-center items-center">
       <div className="mb-12">
         <h3 className="mb-6 text-center text-3xl font-semibold text-[#164863]">
           Lectures Table

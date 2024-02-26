@@ -20,7 +20,7 @@ const Navbar = () => {
         >
           <span
             className={`w-8 md:w-16 bg-[#164863] h-1 transition-transform duration-300 ${
-              isOpen ? "relative top-2 md:top-4 -rotate-45" : "-rotate-0"
+              isOpen ? "translate-y-4 md:top-4 -rotate-45" : "-rotate-0"
             }`}
           ></span>
           <span
@@ -30,7 +30,7 @@ const Navbar = () => {
           ></span>
           <span
             className={`w-8 md:w-16 bg-[#164863] h-1 transition-transform duration-300 ${
-              isOpen ? "relative -top-4 md:-top-6 rotate-45" : "rotate-0"
+              isOpen ? "-translate-y-6 md:-top-6 rotate-45" : "rotate-0"
             }`}
           ></span>
         </div>

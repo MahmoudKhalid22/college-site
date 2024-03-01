@@ -20,9 +20,13 @@ const Years = () => {
             </span>
           </Link>
           <div className="flex flex-col gap-4 bg-[#164863] py-4 px-2">
-            <p className="underline cursor-pointer text-[#ddf2fd] md:text-xl">
+            <Link
+              href="https://drive.google.com/drive/folders/1_kdrn062SMWBimE4aidB-AwzB7OiPiEp"
+              target="_blank"
+              className="underline cursor-pointer text-[#ddf2fd] md:text-xl"
+            >
               semester 1 drive
-            </p>
+            </Link>
             <Link
               href="https://drive.google.com/drive/folders/1TssnGRFv-Uo9XcjPF2wgjy_BOW6YsfPg"
               target="_blank"
@@ -41,12 +45,20 @@ const Years = () => {
           </div>
           <div className="bg-[#164863] flex items-center justify-between py-4 px-2 ">
             <div className="flex flex-col gap-4">
-              <p className="underline cursor-pointer text-[#ddf2fd] md:text-xl">
+              <Link
+                href="https://bit.ly/3rEXnH6"
+                target="_blank"
+                className="underline cursor-pointer text-[#ddf2fd] md:text-xl"
+              >
                 semester 1 drive
-              </p>
-              <p className="underline cursor-pointer text-[#ddf2fd] md:text-xl">
+              </Link>
+              <Link
+                href="https://drive.google.com/drive/folders/1ZAstJ9wz1shqdJPGZ7nO_ioAc8gV7z9r"
+                target="_blank"
+                className="underline cursor-pointer text-[#ddf2fd] md:text-xl"
+              >
                 semester 2 drive
-              </p>
+              </Link>
             </div>
           </div>
         </div>
